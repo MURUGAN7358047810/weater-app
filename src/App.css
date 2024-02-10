@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gold;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-family: "poppins";
+}
+
+.container{
+    width: 350px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px;
+    
+}
+
+.input-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(179, 167, 167);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cityInput{
+    flex: 1;
+    border: none;
+    height: 30px;
+    font-size: 16px;
+    outline: none;
+    padding: 10px;
+}
+
+.search-icon{
+    padding: 10px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.image{
+    text-align: center;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.image img{
+    width: 130px;
+    height: 130px;
+    margin-bottom: -50px;
+}
+
+.temp,
+.location,
+.country{
+    
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.temp{
+    margin-top: -35px;
+    font-weight: 500;
+}
+
+.location{
+    font-weight: 400;
+    font-size: 40px;
+   
+}
+
+.country{
+    font-size: 25px;
+}
+
+.cord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cord div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.element{
+    text-align: center;
+}
+
+.icon{
+    height: 50px;
+    width: 100px;
+}
+
+.error-message,
+.city-not-found{
+    margin-top: 10px;
+    color: grey;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+
+}
